@@ -1,0 +1,277 @@
+/*Nav Section */
+
+/*
+font-family: 'Philosopher', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+	flex-basis: 100%;
+	max-width: 1366px;
+	margin: 0 auto;
+	margin: 0 20px 30px 20px;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1366px;
+	margin: 0 auto;
+	margin: 0 20px;
+}
+
+.lateral{
+	flex: 0.2;
+	margin-right: 10px;
+}
+
+.principal{
+	flex: 0.8;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+main .lateral h2{
+	background-color: black;
+	font-size: 15px;
+	padding: 5px 10px;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-weight: 500;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: darkgrey;
+	border-bottom-width: thin;
+}
+
+.nav-preco p, .nav-marca p{
+	padding: 5px 10px;
+	font-size: 13px;
+}
+
+.nav-preco, .nav-marca{
+	margin-bottom: 20px;
+}
+
+a{
+	text-decoration-line: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #d27469;
+}
+
+.breadcrumb, .pagina-numeros, .pagina-numeros-final{
+	 flex: 100%;
+}
+
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+    
+.breadcrumb li::before {
+    content: "•";
+    font-weight: 300;
+    padding: 10px;
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+    padding-left: 0;
+}
+
+.breadcrumb li:last-child{
+	font-weight: 400;
+}
+
+.pagina-numeros ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.pagina-numeros{
+	margin: auto;
+}
+
+.pagina-numeros ul li{
+	font-weight: 500;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.pagina-numeros ul li:first-child{
+	color: #d27469;
+}
+
+.pagina-numeros-final{
+	margin: auto;
+	flex: 100%;
+	margin-bottom: 10px;
+}
+
+.pagina-numeros-final ul{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	display: flex;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 5px;
+	margin:5px;
+	background-color: grey;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+
+.pagina-numeros-final ul li:first-child button{
+	background-color: #d27469;
+	font-weight: 600;
+
+}
+
+button:hover{
+	background-color: #d27469;
+}
+
+.produtos ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.produtos ul li{
+	flex: 25%;
+	margin-bottom: 40px;
+	text-align: center;
+	align-items: start;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.hover-comprar{
+	position: relative;
+	margin-bottom: 10px;
+	flex-basis: 100%;
+}
+
+}
+.imagem {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0px;
+}
+
+.botao-comprar {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.hover-comprar:hover .imagem {
+  opacity: 0.3;
+}
+
+.hover-comprar:hover .botao-comprar {
+  opacity: 1;
+}
+
+.botao-comprar button:hover{
+	background-color: #c97b75;
+	color: #122330;
+}
+
+.hover-comprar button {
+  flex-basis: 100%;
+  background-color: #d27469;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px;
+  border:none;
+}
+
+.hover-comprar .botao-comprar{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.hover-comprar .botao-comprar button{
+	flex-basis: 100%;
+	justify-content: center;}
+
+
+.produtos-texto div,h4,p,h5{
+	padding-bottom: 5px;
+}
+
+.estrelas{
+	display: flex;
+	justify-content: center;
+}
+
+.estrelas span{
+	font-size: 14px;
+	padding: 0 1px;
+	color: ;
+}
+
+h4{
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.produtos-texto p{
+	font-weight: 400;
+	font-size: 13px;
+}
+
+h5{
+	font-size: 20px;
+	font-weight: 700;
+	color: #d27469;
+}

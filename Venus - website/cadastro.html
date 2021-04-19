@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>VENUS | CADASTRO</title>
+
+		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		</style>
+
+	</head>
+	
+	<body>
+
+		<header>
+			
+			<div class="cabecalho-alt-dois">
+				<div class="logo">
+					<a href="index.html"><img alt="Logo Venus" src="imagens/logo.png"></a>
+				</div>
+
+				<h1>  </h1>
+
+				<div class="seguranca">
+					<p>100% Seguro</p>
+					<img alt="icone cadeado" src="imagens/cadeado.png">
+				</div>
+
+		</header>
+
+
+		<h1>IDENTIFICAÇÃO</h1>
+
+		<div class="formularios">
+
+			<form action="" method="post" class="esquerda">
+				
+				<h2>JÁ SOU CLIENTE</h2>
+				
+				<ul class="login">
+
+					<li class="email">
+						<input type="email" placeholder="E-mail"  name="email" id="email" required>
+					</li>
+
+					<li class="senha">
+						<input  type="password" placeholder="Senha" name="senha" id="senha" maxlength="8" required>
+						
+						<div class="esqueceu-senha">
+						<a href=" ">Esqueci minha senha</a>
+						</div>
+					</li>
+
+				</ul>
+
+
+				<div class="botao">
+					<input type="submit" name="entrar" value="ENTRAR">
+				</div>
+
+
+			</form>
+
+			<form action="" method="post" class="direita">
+
+				<h2>AINDA NÃO SOU CLIENTE</h2>
+
+				<ul class="cadastro">
+					<li>
+						<input type="text" name="nome" id="nome" required placeholder="Nome*">
+						<input type="text" name="sobrenome" id="sobrenome" required placeholder="Sobrenome*">
+					</li>
+
+									
+					
+					<li>
+						<input type="email" name="emailcad" id="emailcad" required placeholder="E-mail*">
+						<input type="number" name="cpf" id="cpf" required placeholder="CPF*">
+					</li>
+
+
+				</ul>
+						
+				<fieldset id="genero">
+					<legend>GÊNERO</legend>
+
+				  	<input type="radio" id="feminino" name="genero" value="feminino" checked>
+				  	<label for="feminino">Feminino</label>
+
+				  	<input type="radio" id="masculino" name="genero" value="masculino">
+				  	<label for="masculino">Masculino</label>
+
+				  	<input type="radio" id="nao-binario" name="genero" value="nao-binario">
+				  	<label for="nao-binario">Não binário</label>
+
+				  	<input type="radio" id="nao" name="genero" value="nao">
+				  	<label for="nao">Prefiro não declarar</label>
+				</fieldset>
+				
+				<ul class="cadastro">
+
+					<li>
+						<input type="date" name="nascimento" id="nascimento" required>					
+						<input type="tel" name="telefone" id="telefone" required="" placeholder="Telefone*">
+					</li>
+
+					<li>
+						<input type="password" name="senhacad" id="senhacad" required placeholder="Senha*">
+						<input type="password" name="confirmsenha" id="confirmsenha" required placeholder="Confirmar senha*">
+					</li>
+
+				</ul>
+
+				<p>
+					*OS CAMPOS SINALIZADOS SÃO OBRIGATÓRIOS
+				</p>
+
+				<div class="termos">
+					  <input type="checkbox" id="termos" name="termos" value="aceito" required>
+					  <label for="termos">Concordo com os <a href=" ">termos e condições de uso</a></label>
+				</div>
+
+				<div class="botao">
+					<input type="submit" name="cadastrar" value="FAZER CADASTRO">
+				</div>
+				
+			</form>
+
+		</div>
+
+
+		<footer>
+			
+			<div class="rodape-dois">
+			
+			<p>Copyright 2020 Venus - CNPJ: 00.000.000/0000-00 - Avenida Venus, 00, Conchas - VN, 00000-000</p>
+			<p><a href="">Política de Privacidade</a> - <a href="">Termos de Uso</a> - <a href="">Privacidade</a></p>
+
+
+		</div>
+
+
+		</footer>
+
+	</body>
+
+
+</html>

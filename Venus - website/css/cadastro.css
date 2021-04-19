@@ -1,0 +1,199 @@
+/*Section Login*/
+
+/*font-family: 'Philosopher', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+	flex-basis: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: #122330;
+	max-width: 1366px;
+}
+
+.formularios{
+	display: flex;
+	margin:0 auto;
+	max-width: 1366px;
+	margin: 0 20px;
+}
+
+.formularios h2{
+	font-size: 20px;
+	display: flex;
+	flex-basis: 100%;
+}
+
+.esquerda{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	justify-content: flex-start;
+	align-content: flex-start;
+	margin-right: 20px;
+}
+
+.login{
+	display: flex;
+	margin: 10px 0;
+	flex-basis: 100%;
+}
+
+.login > li > input{
+	width: 90%;
+	height: 20px;
+	padding: 10px;
+	border-color: darkgrey;
+	border-width: 0.5px;	
+	margin-bottom: 10px;
+}
+
+.email{
+	flex-basis: 50%;
+	margin: 0 auto;
+	margin-right: 10px;
+}
+
+.senha{
+	flex-basis: 50%;
+	margin-right: 10px;
+	margin: 0 auto;
+}
+
+.esqueceu-senha{
+	flex-basis: 100%;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+a{
+	font-weight: bold;
+	color: #122330;
+}
+a:visited{
+	color: #122330;
+}
+
+.esquerda .botao{
+	flex-basis: 100%;
+}
+.esquerda .botao input{
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	width: 100%;
+	border-style: none;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #d27469;
+	text-align: center;
+}
+
+
+/* Section Cadastro*/
+
+
+.direita{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.cadastro{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 0;
+	flex-basis: 100%;
+}
+
+.cadastro>li{
+	display: flex;
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+.cadastro > li > input{
+	width: 90%;
+	height: 20px;
+	padding: 10px;
+	border-color: darkgrey;
+	border-width: 0.5px;	
+	margin-bottom: 10px;
+	flex-basis: 50%;
+}
+
+#genero{
+	display: flex;
+	align-items: center;
+	width: 510px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border: none;
+
+}
+
+#genero legend, input, label{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+
+.direita .botao{
+	display: flex;
+	flex-basis: 100%;
+}
+
+
+.direita .botao input{
+	width: 100%;
+	border-style: none;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #d27469;
+	text-align: center;
+}
+
+
+
+#nome, #emailcad, #nascimento, #senhacad {
+	flex-basis: 50%;
+	margin: 0 auto;
+	margin-right: 10px;
+}
+
+#sobrenome, #cpf, #telefone, #confirmsenha{
+	flex-basis: 50%;
+	margin: 0 auto;
+}
+
+
+#genero, .termos, .formularios p{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 0;
+	flex-basis: 100%;
+	flex-basis: 100%;
+	font-size: 10px;
+}
+
+.termos, .formularios p{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
